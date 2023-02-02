@@ -254,6 +254,129 @@ header{
         width: 1200px;
     }
     .triangle{
+        width: 50px;
+        height: 50px;
+    }
+    .menu li a{
+        font-size: 24px;
+    }
+    .tel{
+        margin-left: 500px; 
+        font-size: 30px;
+    }
+    .title{
+        font-size: 40px;
+        margin-left: 70px;
+    }
+    .sub_title{
+        font-size: 30px;
+    }
+    .border_Image{
+        display: none;
+    }
+    
+    .talk_button{
+        font-size: 60px;
+    }
+    .cube{
+        width: 290px;
+        height: 100px;
+        font-size: 40px;
+        padding-top: 2px;
+        margin-left: 180px;
+    }
+    .small_Text{
+        font-size: 50px;
+    }
+    .center_Text{
+        font-size:70px;
+    }
+    .marginLeftText{
+        margin-left: 160px;
+    }
+    .Text{
+        font-size: 70px;
+    }
+    .big_Text{
+        font-size: 100px;
+    }
+    .sub_Text{
+        font-size: 40px;
+    }
+    .small_sub_text{
+        font-size: 25px ;
+    }
+    .red_small_text{
+        font-size: 29px;
+    }
+    .red_small_text_margin{
+        font-size: 29px;
+        margin-left: 90px;
+    }
+    .black_small_text{
+        font-size: 29px;
+    }
+    .black_small_text_margin1{
+        margin-left: 70px;
+        font-size: 29px;
+    }
+    .black_small_text_margin2{
+        margin-left: 195px;
+        font-size: 29px;
+    }
+    .info_margin_left{
+        margin-left: 105px;
+    }
+    .small_sub_text{
+        font-size: 30px;
+    }
+    .section_start{
+        margin-left: 30px;
+    }
+    .image_portfolio{
+        width: 460px;
+        height: 300px;
+    }
+    .red_portfolio{
+        font-size: 34px;
+        width: 240px;
+    }
+    .center_Text{
+        font-size: 70px;
+    }
+    .small_Text{
+        font-size: 29px;
+    }
+    .margin_portfolio_left{
+        margin-left: 500px;
+    }
+    .service{
+        margin-left: 70px;
+        width: 90%;
+        height: 200px;
+    }
+    .service_big_text{
+        font-size: 40px;
+    }
+    .service_small_text{
+        font-size: 20px;
+    }
+    .articles{
+        height: 100px;
+        width: 80%;
+    }
+    .articles_small_text{
+        font-size: 19px;
+    }
+    .articles_button{
+        width: 80%;
+    }
+}
+@media only screen and (min-width: 375px) {
+    .container{
+        width: 1200px;
+    }
+    .triangle{
         width: 70px;
         height: 70px;
     }
