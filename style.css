@@ -390,6 +390,7 @@ header{
     .title{
         font-size: 40px;
         margin-left: 70px;
+        text-align: center;
     }
     .sub_title{
         font-size: 30px;
@@ -399,32 +400,43 @@ header{
     }
     
     .talk_button{
-        font-size: 60px;
+        font-size: 40px;
+        text-align: right;
     }
+    .big_Text{
+        font-size: 30px;
+        margin-left: 40px;
+    }
+
     .cube{
         width: 290px;
         height: 100px;
         font-size: 40px;
         padding-top: 2px;
-        margin-left: 180px;
+        margin-left: 220px;
     }
     .small_Text{
-        font-size: 50px;
+        font-size: 40px;
+        margin-left: 40px;  
     }
     .center_Text{
         font-size:70px;
+        text-align: right;
     }
     .marginLeftText{
         margin-left: 160px;
     }
     .Text{
+        margin-left: 70px;
         font-size: 70px;
+        text-align: right;
     }
     .big_Text{
         font-size: 100px;
     }
     .sub_Text{
         font-size: 40px;
+        text-align: right;
     }
     .small_sub_text{
         font-size: 25px ;
@@ -440,15 +452,15 @@ header{
         font-size: 29px;
     }
     .black_small_text_margin1{
-        margin-left: 70px;
+        margin-left: 40px;
         font-size: 29px;
     }
     .black_small_text_margin2{
-        margin-left: 195px;
+        margin-left: 165px;
         font-size: 29px;
     }
     .info_margin_left{
-        margin-left: 105px;
+        margin-left: 110px;
     }
     .small_sub_text{
         font-size: 30px;
@@ -465,13 +477,14 @@ header{
         width: 240px;
     }
     .center_Text{
-        font-size: 40px;
+        font-size: 70px;
+
     }
     .small_Text{
         font-size: 29px;
     }
     .margin_portfolio_left{
-        margin-left: 500px;
+        margin-left: 300px;
     }
     .service{
         margin-left: 70px;
