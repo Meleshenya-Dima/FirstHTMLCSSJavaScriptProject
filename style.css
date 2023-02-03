@@ -251,7 +251,7 @@ header{
 
 @media only screen and (max-width: 330px) {
     .container{
-        width: 1200px;
+        width: 1920px;
     }
     .triangle{
         width: 50px;
@@ -374,7 +374,7 @@ header{
 }
 @media only screen and (max-width: 400px) {
     .container{
-        width: 1200px;
+        width: 1350px;
     }
     .triangle{
         width: 70px;
@@ -389,7 +389,7 @@ header{
     }
     .title{
         font-size: 40px;
-        margin-left: 70px;
+        margin-left: 80px;
         text-align: center;
     }
     .sub_title{
@@ -400,7 +400,7 @@ header{
     }
     
     .talk_button{
-        font-size: 40px;
+        font-size: 60px;
         text-align: right;
     }
     .big_Text{
