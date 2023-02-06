@@ -6,6 +6,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
  </head>
 <body>
@@ -15,19 +16,19 @@
                 <img class = "triangle" src="Resources/triangle.png" alt="triangle">
                 <ul class="menu">
                     <li>
-                        <a href="#">Home</a>
+                        <a href="#about">Home</a>
                     </li>
                     <li>
-                        <a href="#">Portfolio</a>
+                        <a href="#portfolio">Portfolio</a>
                     </li>
                     <li>
-                        <a href="#">Service</a>
+                        <a href="#services">Service</a>
                     </li>
                     <li>
-                        <a href="#">Articles</a>
+                        <a href="#articles">Articles</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="#contact">Contact</a>
                     </li>
                 </ul>
                 <a class="tel" href="tel:+375293416614">
@@ -49,11 +50,11 @@
                             <img class = "triangle" src="Resources/triangle.png" alt="triangle">
                             <h1>DEVELOPMENT</h1>
                             <img class = "triangle" src="Resources/triangle.png" alt="triangle">
-                            <h1>WEBFLOW</h1>
+                            <h1>GAME DEVELOPMENT</h1>
                         </div>
                         <div class="sub_title">
                             <div class="cube">Have questions?</div>
-                            <button type="button" class="talk_button">Let's talk.</button>
+                            <button onclick="TalkButtonClick()" type="button" class="talk_button">Let's talk.</button>
                         </div>
                     </div>
                     <div class="my_Image">
@@ -72,20 +73,19 @@
                         <img class = "triangle" src="Resources/triangle.png" alt="triangle">
                         <h1 class="small_Text">Meleshenya</h1>
                     </div>
-                    <h1 class="big_Text">Lead product</h1>
-                    <h1 class="big_Text">designer and</h1>
-                    <h1 class="big_Text">art director</h1>
+                    <h1 class="big_Text">Junior++/Middle .NET and</h1>
+                    <h1 class="big_Text">Junior frontend and</h1>
+                    <h1 class="big_Text">SQL developer</h1>
                 </div>
                     <div class="margin_Text_Top">
                         <div class="marginLeftText">
-                            <h1 class="center_Text">Lorem ipsum dolor sit amet, consectetur</h1>
-                            <h1 class="Text">adipiscing elit, sed do eiusmod tempor</h1>
-                            <h1 class="Text">incididut ut labore et dolore</h1>
-                            <h1 class="sub_Text">Lorem ipsum dolor sit, amet consectetur adipisicing elit, sed do eiusmod </h1>
-                            <h1 class="small_sub_text">tempor incididut ut labore et dolore</h1>
+                            <h1 class="center_Text">I continue to gain knowledge in order to become</h1>
+                            <h1 class="Text">the best in my field. Working as a programmer, I feel happy,</h1>
+                            <h1 class="Text">I do my best to face more complex tasks.</h1>
+                            <h1 class="sub_Text">Information to start viewing:</h1>
                             <div class="nav">
                                 <h1 class="red_small_text">BORN IN</h1>
-                                <h1 class="red_small_text_margin">EXPERIENCE</h1>
+                                <h1 class="red_small_text_margin">EXPERIENCE WORK</h1>
                                 <h1 class="red_small_text_margin">DATE OF BIRTH</h1>
                             </div>
                             <div class="nav">
@@ -99,15 +99,15 @@
                 <div class="margin_Text_Top">
                     <div class="nav">
                         <div class="info_margin_left">
-                            <h1 class="big_Text">1+</h1>
+                            <h1 id="Years" class="big_Text">1</h1>
                             <h1 class="small_sub_text">YEARS OF EXPERIENCE</h1>
                         </div>
                         <div class="info_margin_left">  
-                            <h1 class="big_Text">15+</h1>
+                            <h1 class="big_Text">14</h1>
                             <h1 class="small_sub_text">PROJECT COMPLITED</h1>
                         </div>
                         <div class="info_margin_left">
-                            <h1 class="big_Text">0</h1>
+                            <h1 class="big_Text" >0</h1>
                             <h1 class="small_sub_text">HAPPY CLIENTS</h1>
                         </div>
                     </div>
@@ -120,22 +120,22 @@
             <div class="section_start">
                 <img class="triangle" src="Resources/triangle.png" alt="triangle">
                 <h1 class="section_start_Text">Portfolio</h1>
-                <h1 class="small_sub_text_section">REGONITIONS & ACCOIMPLISHMENTS</h1>
+                <h1 class="small_sub_text_section">A COUPLE OF READY-MADE PROJECTS</h1>
             </div>
             <div class="margin_Text_Top">
                 <div class="nav">
                     <img class="image_portfolio" src="Resources/IMAGE1920 (1).png" alt="IMAGE1920">
                     <div class="margin_portfolio_left">
-                        <h1 class="red_portfolio">ART DIRECTOR</h1>
-                        <h1 class="center_Text">Beautiful and advanced website interface</h1>
-                        <h1 class="small_Text">Read more</h1>
+                        <h1 class="red_portfolio">Neural Network</h1>
+                        <h1 class="center_Text">A neural network that reads numbers from one to ten</h1>
+                        <h1 onclick="ReadMoreButtonClick('NeuralNetwork')" class="small_Text">Read more</h1>
                     </div>
                 </div>
                 <div class="nav">
                     <div>
-                        <h1 class="red_portfolio">BRANDING</h1>
-                        <h1 class="center_Text">Design and extreme programming practice</h1>
-                        <h1 class="small_Text">Read more</h1>
+                        <h1 class="red_portfolio">Unity Client Server</h1>
+                        <h1 class="center_Text">Agronavigator for remote operation of tractors in the fields</h1>
+                        <h1 onclick="ReadMoreButtonClick('UnityClientServer')" class="small_Text">Read more</h1>
                     </div>
                     <div class="margin_portfolio_left">
                         <img class="image_portfolio" src="Resources/IMAGE1920.png" alt="IMAGE1920">
@@ -144,16 +144,16 @@
                 <div class="nav">
                     <img class="image_portfolio" src="Resources/IMAGE1920 (2).png" alt="IMAGE1920">
                     <div class="margin_portfolio_left">
-                        <h1 class="red_portfolio">WEB DESIGN</h1>
-                        <h1 class="center_Text">Nature inspired design</h1>
-                        <h1 class="small_Text">Read more</h1>
+                        <h1 class="red_portfolio">Online Store (Xamarin)</h1>
+                        <h1 class="center_Text">Mobile application for receiving services from the hospital</h1>
+                        <h1 onclick="ReadMoreButtonClick('OnlineStore')" class="small_Text">Read more</h1>
                     </div>
                 </div>
                 <div class="nav">
                     <div>
-                        <h1 class="red_portfolio">MOTION GRAPHICS</h1>
-                        <h1 class="center_Text">Disign & concept at work adasdssdasd asdassd </h1>
-                        <h1 class="small_Text">Read more</h1>
+                        <h1 class="red_portfolio">OnlineService (WPF)</h1>
+                        <h1 class="center_Text">An application for the ability to analyze the number of steps taken over a certain period (with a graph) for different users.</h1>
+                        <h1 onclick="ReadMoreButtonClick('Service')" class="small_Text">Read more</h1>
                     </div>
                     <div class="margin_portfolio_left">
                         <img class="image_portfolio" src="Resources/IMAGE1920 (3).png" alt="IMAGE1920">
@@ -240,9 +240,9 @@
                     <div class="contact__us_text">defaultitmember@gmail.com</div>
                 </div>
                 <div class="contact_image_left_margin">
-                    <img class="contact_image" src="Resources/instagram.png" alt="instagram">
-                    <img class="contact_image" src="Resources/vk.png" alt="vk">
-                    <img class="contact_image" src="Resources/telegram.png" alt="telegram">
+                    <img id="instagram" onclick="OpenSocialNetwork(document.getElementById('instagram').id)" class="contact_image" src="Resources/instagram.png" alt="instagram">
+                    <img id="vk" onclick="OpenSocialNetwork(document.getElementById('vk').id)" class="contact_image" src="Resources/vk.png" alt="vk">
+                    <img id="telegram" onclick="OpenSocialNetwork(document.getElementById('telegram').id)" class="contact_image" src="Resources/telegram.png" alt="telegram">
                 </div>
             </div>
         </div>

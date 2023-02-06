@@ -27,7 +27,7 @@ header{
     display: flex;
 }
 .menu li a{
-    font-size: 16px;
+    font-size: 18px;
     margin-left: 30px;
 }
 .menu li{
@@ -35,7 +35,9 @@ header{
     list-style-type: none;
 }
 .tel{
-   margin-left: 420px; 
+   margin-left: 400px; 
+   font-size:18px;
+
 }
 .title{
     margin-top: 70px;
@@ -119,7 +121,7 @@ header{
 }
 .red_small_text_margin{
     margin-top: 20px;
-    margin-left: 135px;
+    margin-left: 90px;
     font-size: 12px;
     font-family: "Bai Jamjuree";
     color: rgb(221, 89, 89);
@@ -135,14 +137,14 @@ header{
 }
 .black_small_text_margin1{
     margin-top: 10px;
-    margin-left: 90px;
+    margin-left: 45px;
     font-size: 14px;
     font-family: "Bai Jamjuree";
     color: black;
 }
 .black_small_text_margin2{
     margin-top: 10px;
-    margin-left: 160px;
+    margin-left: 153px;
     font-size: 14px;
     font-family: "Bai Jamjuree";
     color: black;
@@ -255,7 +257,7 @@ header{
     font-size: 15px;
     font-family: "Bai Jamjuree";
 }
-@media only screen and (max-width: 400px) {
+/* @media only screen and (max-width: 400px) {
     .container{
         width: 1350px;
     }
@@ -414,4 +416,4 @@ header{
     .contact_image_left_margin{
         margin-left: 80px;
     }
-}
+} */
