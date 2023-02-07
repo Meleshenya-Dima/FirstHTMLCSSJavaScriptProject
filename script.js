@@ -1,5 +1,5 @@
 function TalkButtonClick(){
-    alert("lets talk");
+    window.open('https://web.telegram.org/k/#@storojiladima');
 }
 
 function OpenSocialNetwork(socialNetworkName){
@@ -10,7 +10,7 @@ function OpenSocialNetwork(socialNetworkName){
         window.open('https://www.instagram.com/dimkahevidimka/');
     }
     else{
-        alert("telegram для педиков")
+       window.open('https://web.telegram.org/k/#@defaultitmember');
     }
 }
 
@@ -27,8 +27,4 @@ function ReadMoreButtonClick(nameProject){
     else if(nameProject == "Service"){
         window.open('https://github.com/Meleshenya-Dima/JsonDataService');
     }
-}
-
-function SectionButtonClick(){
-
 }

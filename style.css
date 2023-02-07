@@ -258,163 +258,80 @@ header{
     font-size: 15px;
     font-family: "Bai Jamjuree";
 }
-/* @media only screen and (max-width: 400px) {
+@media only screen and (max-width: 425px){
     .container{
-        width: 1350px;
-    }
-    .triangle{
-        width: 70px;
-        height: 70px;
-    }
-    
-    .menu li a{
-        font-size: 24px;
-    }
-    .tel{
-        margin-left: 270px; 
-        font-size: 30px;
+        width: 1000px;
     }
     .title{
-        font-size: 40px;
-        margin-left: 80px;
+        font-size: 25;
         text-align: center;
     }
-    .sub_title{
-        font-size: 30px;
+    .menu li a{
+        font-size: 27px;   
+        margin-left: 15px; 
     }
-
-    .small_sub_dima{
-        margin-left: 40px;
-        font-size: 45;
+    .tel{
+        margin-left: 100px; 
+        font-size: 27px;
     }
-    .border_Image{
-        display: none;
+    .my_Image{
+        margin-left: 30px;
+        padding-left: 0px;
     }
-    
-    .talk_button{
-        font-size: 60px;
-        text-align: right;
-    }
-    .big_Text{
-        font-size: 30px;
-        margin-left: 40px;
-    }
-
     .cube{
-        width: 290px;
-        height: 100px;
-        font-size: 40px;
-        padding-top: 2px;
-        margin-left: 220px;
-    }
-    .center_Text{
-        font-size:70px;
-        text-align: right;
+        margin-left: 205px;
     }
     .marginLeftText{
-        margin-left: 160px;
-    }
-    .Text{
-        margin-left: 70px;
-        font-size: 70px;
-        text-align: right;
-    }
-    .big_Text{
-        font-size: 100px;
-    }
-    .sub_Text{
-        font-size: 40px;
-        text-align: right;
-    }
-    .small_sub_text{
-        font-size: 25px ;
-        text-align: right;
-    }
-    .red_small_text{
-        font-size: 29px;
+        margin-left: 90px;
     }
     .red_small_text_margin{
-        font-size: 29px;
-        margin-left: 110px;
-    }
-    .black_small_text{
-        font-size: 29px;
+        margin-left: 100;
     }
     .black_small_text_margin1{
-        margin-left: 35px;
-        font-size: 29px;
+        margin-left: 55px;
     }
     .black_small_text_margin2{
-        margin-left: 185px;
-        font-size: 29px;
+        margin-left: 161px;
     }
     .info_margin_left{
-        margin-left: 130px;
+        margin-left: 110px;
     }
-    .small_sub_text{
-        font-size: 30px;
-    }
-    .section_start{
-        margin-left: 30px;
-    }
-    .image_portfolio{
-        width: 460px;
-        height: 300px;
-    }
-    .red_portfolio{
-        font-size: 34px;
-        width: 240px;
-    }
-    .center_Text{
-        font-size: 70px;
-
-    }
-    .small_Text{
-        font-size: 50px;
-        margin-left: 0px;
-        text-align: right;
-    }
-    .margin_portfolio_left{
-        margin-left: 300px;
+    .sub_Text{
+        font-size: 20px;
     }
     .service{
-        margin-left: 70px;
-        width: 90%;
-        height: 200px;
+        margin-left: 125px;
+        height: 160px;
     }
     .service_big_text{
-        font-size: 50px;
+        font-size: 30px;
     }
     .service_small_text{
-        font-size: 25px;
+        font-size: 18px;
     }
     .articles{
-        height: 100px;
+        height: 70px;
         width: 80%;
+        margin-left: 100px;
+    }
+    .small_sub_text{
+        font-size: 20px;
     }
     .articles_small_text{
-        font-size: 19px;
+        font-size: 15px;
     }
-    .articles_red_text{
-        font-size: 20;
+    .articles_button_text{
+        font-size: 16px;
     }
     .articles_button{
         width: 80%;
-    }
-    .articles_button_text{
-        font-size: 20;
-    }
-    .menu li a{
-        font-size: 30px;
-    }
-    .contact__us_text{
-        font-size: 40px;
-    }
-    .contact_image{
-        width: 45px;
-        height: 45px;
+        margin-left: 100px;
     }
     .contact_image_left_margin{
-        margin-left: 80px;
+        margin-left: 125px;
     }
-} */
+    .image_portfolio{
+        width: 410px;
+        height: 257px;
+    }
+}

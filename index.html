@@ -8,9 +8,10 @@
 <link rel="stylesheet" href="style.css">
 <script src="script.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
  </head>
 <body>
-    <div class="header">
+    <div class = "header" >
         <div class="container">
             <div class="nav">
                 <img class = "triangle" src="Resources/triangle.png" alt="triangle">
@@ -30,6 +31,16 @@
                     <li>
                         <a href="#contact">Contact</a>
                     </li>
+                    <script type="text/javascript">
+                        $(document).ready(function(){
+                           $(".menu").on("click","a", function (event) {
+                               event.preventDefault();
+                               var id  = $(this).attr('href'),
+                                   top = $(id).offset().top;
+                               $('body,html').animate({scrollTop: top}, 1500);
+                           });
+                       });
+                    </script>
                 </ul>
                 <a class="tel" href="tel:+375293416614">
                     +375 29 341-66-14
@@ -64,7 +75,7 @@
             </div>
         </div>
     </div>
-    <section id="about">
+    <section id = "about" >
         <div class="container">
             <div class="menu">
                 <div class="margin_Text_Top">
@@ -98,15 +109,48 @@
                 <div class="margin_Text_Top">
                     <div class="nav">
                         <div class="info_margin_left">
-                            <h1 id="Years" class="big_Text">1</h1>
+                            <h1 id="Years" class="big_Text">0</h1>
+                            <script>
+                            $('#Years').animate({
+                                numberValue: 1
+                                }, {
+                                duration: 500,
+                                easing: 'linear',
+                                step: function() {
+                                  $('#Years').text(Math.ceil(this.numberValue));
+                                }
+                              });
+                            </script>
                             <h1 class="small_sub_text">YEARS OF EXPERIENCE</h1>
                         </div>
                         <div class="info_margin_left">  
-                            <h1 class="big_Text">14</h1>
+                            <h1 id="ProjectComplited" class="big_Text">14</h1>
+                            <script>
+                                $('#ProjectComplited').animate({
+                                    numberValue: 14
+                                    }, {
+                                    duration: 500,
+                                    easing: 'linear',
+                                    step: function() {
+                                      $('#ProjectComplited').text(Math.ceil(this.numberValue));
+                                    }
+                                  });
+                                </script>
                             <h1 class="small_sub_text">PROJECT COMPLITED</h1>
                         </div>
                         <div class="info_margin_left">
-                            <h1 class="big_Text" >0</h1>
+                            <h1 id="HappyClients" class="big_Text" >0</h1>
+                            <script>
+                                $('#HappyClients').animate({
+                                    numberValue: 0
+                                    }, {
+                                    duration: 500,
+                                    easing: 'linear',
+                                    step: function() {
+                                      $('#HappyClients').text(Math.ceil(this.numberValue));
+                                    }
+                                  });
+                                </script>
                             <h1 class="small_sub_text">HAPPY CLIENTS</h1>
                         </div>
                     </div>
@@ -114,7 +158,7 @@
             </div>
         </div>
     </section>
-    <section id="portfolio">
+    <section id = "portfolio" >
         <div class="container">
             <div class="section_start">
                 <img class="triangle" src="Resources/triangle.png" alt="triangle">
@@ -161,7 +205,7 @@
             </div>
         </div>
     </section>
-    <section id = "services">
+    <section id = "services" >
         <div class="container">
             <div class="section_start">
                 <img class="triangle" src="Resources/triangle.png" alt="triangle">
@@ -190,7 +234,7 @@
             </div>
         </div>
     </section>
-    <section id="articles">
+    <section id = "articles" >
         <div class="container">
             <div class="section_start">
                 <img class="triangle" src="Resources/triangle.png" alt="triangle">
@@ -230,7 +274,7 @@
             </div>
         </div>
     </section>
-    <footer id="contact" class="contact">
+    <footer id = "contact" class="contact">
         <div class="container">
             <div class="contact__us">
                 <div class="contact_image_left_margin">
