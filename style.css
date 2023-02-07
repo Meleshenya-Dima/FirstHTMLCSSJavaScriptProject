@@ -267,7 +267,7 @@ header{
         width: 360px;
     }
     .title{
-        font-size: 10px;
+        font-size: 13px;
         align-items: center;
     }
     .menu li a{
@@ -292,18 +292,18 @@ header{
     }
     .sub_title{
         margin-top: 5px;
-        font-size: 6px;
+        font-size: 7px;
     }
     .tel{
         margin-left: 45px; 
         font-size: 15px;
     }
     .my_Image{
-        margin-left: 30px;
+        margin-left: 65px;
         padding-left: 0px;
     }
     .cube{
-        margin-left: 70px;
+        margin-left: 105px;
         width: 65px;
         height: 35px;
         font-size: 12px;
@@ -369,6 +369,9 @@ header{
     .phoneText{
         align-items: center;
         text-align: center;
+    }
+    .imagePhone{
+        margin-left: 22px;
     }
     .red_portfolio{
         align-items: center;
