@@ -65,7 +65,8 @@ header{
     background-color: #f2f1ef;
     border-color: black;
     font-size: 20px;
-    padding: 15px;
+    padding: 14px;
+    font-family: "Bai Jamjuree";
 }
 .cube{
     margin-left: 30px;
