@@ -19,6 +19,10 @@ header{
     display: flex;
     align-items: center;
 }
+.nav_two{
+    display: flex;
+    align-items: center;    
+}
 .triangle{
     width: 30px;
     height: 30px;
@@ -260,78 +264,149 @@ header{
 }
 @media only screen and (max-width: 425px){
     .container{
-        width: 1000px;
+        width: 360px;
     }
     .title{
-        font-size: 25;
-        text-align: center;
+        font-size: 10px;
+        align-items: center;
     }
     .menu li a{
-        font-size: 27px;   
+        font-size: 15px;   
         margin-left: 15px; 
     }
+    .menu{
+        display: inline;
+    }
+    .talk_button{
+        font-size: 11px;
+        padding: 10px;
+    }
+    .border_Image{
+        margin-left: 35px;
+        width: 150px;
+        height: 150px;
+    }
+    .triangle{
+        width: 20px;
+        height: 20px;
+    }
+    .sub_title{
+        margin-top: 5px;
+        font-size: 6px;
+    }
     .tel{
-        margin-left: 100px; 
-        font-size: 27px;
+        margin-left: 45px; 
+        font-size: 15px;
     }
     .my_Image{
         margin-left: 30px;
         padding-left: 0px;
     }
     .cube{
-        margin-left: 205px;
+        margin-left: 70px;
+        width: 65px;
+        height: 35px;
+        font-size: 12px;
     }
-    .marginLeftText{
-        margin-left: 90px;
+    .big_Text{
+        font-size: 25px;
     }
-    .red_small_text_margin{
-        margin-left: 100;
+    .small_sub_dima{
+        font-size: 16px;
     }
-    .black_small_text_margin1{
-        margin-left: 55px;
+    .small_Text{
+        font-size: 16px; 
     }
-    .black_small_text_margin2{
-        margin-left: 161px;
+    .center_Text{
+        font-size: 20px; 
     }
-    .info_margin_left{
-        margin-left: 110px;
+    .Text{
+        font-size: 20px; 
     }
     .sub_Text{
-        font-size: 20px;
+        font-size: 15px; 
     }
-    .service{
-        margin-left: 125px;
-        height: 160px;
+    .red_small_text{
+        font-size: 10px;
     }
-    .service_big_text{
-        font-size: 30px;
+    .red_small_text_margin{
+        margin-left: 35px;
+        font-size: 10px;
     }
-    .service_small_text{
-        font-size: 18px;
+    .black_small_text{
+        font-size: 10px;
     }
-    .articles{
-        height: 70px;
-        width: 80%;
+    .black_small_text_margin1{
+        margin-left: 10px;
+        font-size: 10px;
+    }
+    .black_small_text_margin2{
+        margin-left: 90px;
+        font-size: 10px;
+    }
+    .info_margin_left{
+        margin-left: 0px;
+    }
+    .nav_two{
+        display: inline;
+        text-align: left;
+    }
+    .info_margin_left{
+        margin-left: 0px;
+    }
+    .marginLeftText{
+        margin-left: 0px;
+    }
+    .image_portfolio{
+        width: 310px;
+        height: 197px;
+    }
+    .margin_portfolio_left{
+        margin-left: 0;
+        align-items: center;
+        text-align: center;
+    }
+    .phoneText{
+        align-items: center;
+        text-align: center;
+    }
+    .red_portfolio{
+        align-items: center;
+        text-align: center;
+        margin-top: 20px;
         margin-left: 100px;
     }
+    .service{
+        margin-left: 25px;
+        height: 110px;
+        width: 85%
+    }
+    .service_big_text{
+        font-size: 25px;
+    }
+    .service_small_text{
+        font-size: 13px;
+    }
+    .articles{
+        height: 140px;
+        width: 85%;
+        margin-left: 25px;
+    }
     .small_sub_text{
-        font-size: 20px;
+        font-size: 17px;
     }
     .articles_small_text{
         font-size: 15px;
+        margin-left: 10px;
     }
     .articles_button_text{
         font-size: 16px;
     }
     .articles_button{
         width: 80%;
-        margin-left: 100px;
+        margin-left: 35px;
     }
     .contact_image_left_margin{
-        margin-left: 125px;
-    }
-    .image_portfolio{
-        width: 410px;
-        height: 257px;
+        margin-left: 0px;
     }
 }
