@@ -266,6 +266,9 @@ header{
     .container{
         width: 360px;
     }
+    .margin_Text_Top{
+        margin-top: 50px;
+    }
     .title{
         font-size: 13px;
         align-items: center;
