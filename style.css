@@ -267,7 +267,10 @@ header{
         width: 360px;
     }
     .margin_Text_Top{
-        margin-top: 50px;
+        margin-top: 40px;
+    }
+    .section_start{
+        margin-top: 80px;
     }
     .title{
         font-size: 13px;
@@ -298,7 +301,7 @@ header{
         font-size: 7px;
     }
     .tel{
-        margin-left: 45px; 
+        margin-left: 90px; 
         font-size: 15px;
     }
     .my_Image{
@@ -374,7 +377,7 @@ header{
         text-align: center;
     }
     .imagePhone{
-        margin-left: 22px;
+        margin-left: 25px;
     }
     .red_portfolio{
         align-items: center;
@@ -383,15 +386,19 @@ header{
         margin-left: 100px;
     }
     .service{
-        margin-left: 25px;
-        height: 110px;
+        margin-left: 27px;
+        height: 100px;
         width: 85%
     }
     .service_big_text{
         font-size: 25px;
+        margin-left: 10px;
+        margin-top: 5px;
     }
     .service_small_text{
         font-size: 13px;
+        margin-left: 10px;
+        margin-top: 5px;
     }
     .articles{
         height: 140px;
